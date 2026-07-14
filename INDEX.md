@@ -82,7 +82,7 @@ Abrange inexistência, indisponibilidade, desconhecimento, obsolescência, compl
 
 Abrange equipamentos de proteção, ferramentas, local e ambiente de trabalho, acessibilidade, controle de energias, carga de trabalho e características do sistema de trabalho.
 
-- [Consultar categoria 35 — Interação humano e ambiente](35-Interacao-Humano-Ambiente.md)
+- [Consultar categoria 35 — Fatores de Interação Humano/Ambiente](35-Fatores-Interacao.md)
 
 ### 36 — Capacitação de pessoal
 
