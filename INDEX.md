@@ -76,7 +76,7 @@ Abrange validação de novos desenvolvimentos, análise de riscos, gestão de mu
 
 Abrange inexistência, indisponibilidade, desconhecimento, obsolescência, complexidade, erros e inconsistências em procedimentos e instruções.
 
-- [Consultar categoria 34 — Protocolos operacionais](34-Protocolos-Operacionais.md)
+- [Consultar categoria 34 — Relatório de Análise](34-Relatorio-Analise.md)
 
 ### 35 — Fatores de interação humano e ambiente
 
