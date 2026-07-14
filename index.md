@@ -1,143 +1,222 @@
 # Índice da Base de Conhecimento — Lista Compreensiva de Causas (LCC)
 
-## 1. Finalidade deste índice
+## 1. Finalidade
 
-Este arquivo é a porta de entrada para consulta da base de conhecimento da **Lista Compreensiva de Causas (LCC)**.
+Esta página é a porta de entrada da base de conhecimento da **Lista Compreensiva de Causas (LCC)**.
 
-A base apoia duas fases da análise de causa-raiz:
+A base apoia o agente e o investigador humano em duas finalidades principais:
 
-1. **Pesquisa de causas contribuintes:** identificar hipóteses plausíveis e orientar a coleta de evidências.
-2. **Teste de causas:** confirmar, refutar ou classificar como inconclusiva cada hipótese, com base em evidências e vínculo causal com o evento.
+1. **pesquisar causas contribuintes plausíveis**;
+2. **testar hipóteses de causa com evidências favoráveis e desfavoráveis**.
 
-> **Orientação ao agente:** consulte primeiro a metodologia e, em seguida, acesse somente as categorias relacionadas ao evento investigado. Não conclua uma causa sem testar a hipótese e considerar evidências contrárias.
-
----
-
-## 2. Como utilizar a base
-
-### Se a causa ainda não é conhecida
-
-1. Descreva objetivamente o evento.
-2. Identifique os fatores causais potencialmente envolvidos.
-3. Selecione abaixo uma ou mais categorias aplicáveis.
-4. Utilize o bloco **Pesquisa de causas contribuintes** existente em cada hipótese.
-5. Reúna evidências antes de priorizar as hipóteses.
-
-### Se já existe uma hipótese de causa
-
-1. Localize a hipótese na categoria correspondente.
-2. Utilize o bloco **Teste da causa**.
-3. Busque evidências que sustentem e que contradigam a hipótese.
-4. Avalie o vínculo causal entre a condição e o evento.
-5. Classifique o resultado como **confirmado**, **refutado** ou **inconclusivo**.
-6. Para uma causa confirmada, continue os “porquês” para pesquisar condições antecedentes e causas sistêmicas.
+> **Orientação ao agente:** seguir a sequência operacional desta página. Não saltar diretamente do relato do evento para uma causa provável. Não confirmar uma causa sem demonstrar a condição, o mecanismo de influência e o vínculo com o evento.
 
 ---
 
-## 3. Metodologia
+# 2. Iniciar uma investigação
 
-- [Metodologia de pesquisa e teste de causas](01-METODOLOGIA.md)
+Utilizar os documentos abaixo na ordem indicada.
+
+## Passo 1 — Executar o roteiro operacional
+
+- [00 — Roteiro Operacional da Investigação](00-ROTEIRO-OPERACIONAL.md)
+
+O roteiro conduz as etapas originais da LCC:
+
+- **A — Descrever o evento**;
+- **B — Pesquisar dados e evidências**;
+- **C — Organizar dados e evidências**;
+- **D — Iniciar a triagem a partir de cada fator causal**.
+
+## Passo 2 — Consultar a metodologia
+
+- [01 — Metodologia de Pesquisa e Teste de Causas](01-METODOLOGIA.md)
+
+A metodologia apresenta critérios para:
+
+- qualidade e suficiência das evidências;
+- formulação de hipóteses testáveis;
+- análise de barreiras;
+- teste contrafactual;
+- confirmação, refutação ou resultado inconclusivo;
+- continuidade dos “porquês”;
+- prevenção de vieses;
+- limites de atuação do agente de IA.
+
+## Passo 3 — Executar a triagem dos fatores causais
+
+- [02 — Triagem de Fatores Causais — Passos 1 a 28](02-TRIAGEM-DE-FATORES-CAUSAIS.md)
+
+A triagem classifica os fatores causais e direciona a investigação para uma ou mais categorias 29 a 39.
+
+## Passo 4 — Consultar as categorias recomendadas
+
+Após a triagem, abrir os arquivos das categorias 29 a 39 indicadas e utilizar os blocos de:
+
+- interpretação para investigação;
+- pesquisa de causas contribuintes;
+- evidências a pesquisar;
+- perguntas de investigação;
+- teste da causa;
+- confirmação, refutação ou resultado inconclusivo;
+- continuidade dos “porquês”.
 
 ---
 
-## 4. Categorias da Lista Compreensiva de Causas
+# 3. Fluxo completo
 
-### 29 — Projeto e desenvolvimento
+```text
+00 — Roteiro Operacional
+        ↓
+A — Descrever o evento
+        ↓
+B — Pesquisar dados e evidências
+        ↓
+C — Organizar dados e evidências
+        ↓
+02 — Triagem dos fatores causais — passos 1 a 28
+        ↓
+Categorias 29 a 39
+        ↓
+Pesquisar causas contribuintes
+        ↓
+Formular e testar hipóteses
+        ↓
+Confirmar, refutar ou classificar como inconclusiva
+        ↓
+Continuar os porquês
+        ↓
+Registrar causas contribuintes e sistêmicas demonstradas
+```
+
+---
+
+# 4. Categorias da Lista Compreensiva de Causas
+
+## 29 — Projeto
 
 Abrange entradas, saídas, verificação e validação de projeto.
 
-- [Consultar categoria 29 — Projeto e desenvolvimento](29-Projeto.md)
+- [Consultar categoria 29 — Projeto](29-Projeto.md)
 
-### 30 — Confiabilidade de equipamentos
+## 30 — Manutenção
 
-Abrange programas de manutenção, manutenção corretiva e calibração ou verificação.
+Abrange programa de manutenção, manutenção preventiva, manutenção corretiva, calibração e verificação.
 
-- [Consultar categoria 30 — Confiabilidade de equipamentos](30-Manutencao.md)
+- [Consultar categoria 30 — Manutenção](30-Manutencao.md)
 
-### 31 — Informação documentada e controles associados
+## 31 — Informação Documentada
 
-Abrange equipamentos e instrumentos, materiais, registros de processo, controle ambiental, análise de riscos operacionais e capacitação registrada, conforme a estrutura original da LCC.
+Abrange documentação e registros associados a equipamentos, materiais, processos, controles ambientais, análises de risco e capacitação de pessoal.
 
-- [Consultar categoria 31 — Informação documentada e controles associados](31-Informacao-Documentada.md)
+- [Consultar categoria 31 — Informação Documentada](31-Informacao-Documentada.md)
 
-### 32 — Fornecedores, aquisição, armazenamento e uso
+## 32 — Fornecedores, Materiais e Serviços
 
-Abrange seleção e monitoramento de fornecedores, aquisição, especificações, armazenamento, preservação, estoque, uso e descarte.
+Abrange seleção e monitoramento de fornecedores, aquisição, especificação, armazenamento, preservação, uso e descarte.
 
-- [Consultar categoria 32 — Fornecedores, materiais e serviços](32-Fornecedores-Materiais-e-Servicos.md)
+- [Consultar categoria 32 — Fornecedores, Materiais e Serviços](32-Fornecedores-Materiais-e-Servicos.md)
 
-### 33 — Perigos, Aspectos e Defeitos
+## 33 — Perigos, Aspectos e Defeitos
 
-Abrange validação de novos desenvolvimentos, análise de riscos, gestão de mudanças, inspeções, auditorias, medições e tratamento de ocorrências.
+Abrange novo desenvolvimento, análise de riscos, gestão de mudanças, inspeção, auditoria, medição, tratamento e prevenção de recorrências.
 
 - [Consultar categoria 33 — Perigos, Aspectos e Defeitos](33-Perigos-Aspectos-e-Defeitos.md)
 
-### 34 — Protocolos operacionais
+## 34 — Protocolos Operacionais
 
-Abrange inexistência, indisponibilidade, desconhecimento, obsolescência, complexidade, erros e inconsistências em procedimentos e instruções.
+Abrange inexistência, indisponibilidade, desconhecimento, obsolescência, complexidade, erros, lacunas e inconsistências em procedimentos e instruções.
 
 - [Consultar categoria 34 — Protocolos Operacionais](34-Protocolos-Operacionais.md)
 
-### 35 — Fatores de interação humano e ambiente
+## 35 — Fatores de Interação Humano/Ambiente
 
-Abrange equipamentos de proteção, ferramentas, local e ambiente de trabalho, acessibilidade, controle de energias, carga de trabalho e características do sistema de trabalho.
+Abrange EPIs, EPCs, equipamentos, ferramentas, local de trabalho, infraestrutura, condições ambientais, carga de trabalho e características do sistema de trabalho.
 
 - [Consultar categoria 35 — Fatores de Interação Humano/Ambiente](35-Fatores-Interacao.md)
 
-### 36 — Capacitação de pessoal
+## 36 — Capacitação de Pessoal
 
-Abrange decisão e identificação de necessidades de treinamento, programas, registros, aplicação de treinamentos, qualificação e certificação.
+Abrange identificação de necessidades, programas, participação, registros, modalidades de treinamento, qualificação e certificação.
 
-- [Consultar categoria 36 — Capacitação de pessoal](36-Capacitacao-de-Pessoal.md)
+- [Consultar categoria 36 — Capacitação de Pessoal](36-Capacitacao-de-Pessoal.md)
 
-### 37 — Responsabilidades, planejamento e supervisão
+## 37 — Responsabilidades, Planejamento e Supervisão do Serviço
 
-Abrange definição de responsabilidades, atribuições, planejamento, preparação, alocação, supervisão, coordenação e desempenho de equipes.
+Abrange responsabilidades, autoridades, planejamento, preparação, alocação, supervisão, coordenação, desempenho da equipe e gestão da fadiga.
 
-- [Consultar categoria 37 — Responsabilidades, planejamento e supervisão](37-Responsabilidades-Planejamento-Supervisao.md)
+- [Consultar categoria 37 — Responsabilidades, Planejamento e Supervisão do Serviço](37-Responsabilidades-Planejamento-Supervisao.md)
 
-### 38 — Comunicação
+## 38 — Comunicação
 
-Abrange meios, regras, oportunidade, conteúdo, abrangência, feedback, clareza, terminologia e barreiras de comunicação.
+Abrange comunicação escrita, verbal, formal e informal, incluindo canais, regras, timing, exatidão, feedback, abrangência, clareza e linguagem.
 
 - [Consultar categoria 38 — Comunicação](38-Comunicacao.md)
 
-### 39 — Desempenho de pessoal
+## 39 — Desempenho de Pessoal
 
-Abrange desenvolvimento humano e aspectos pessoais descritos na LCC. Os itens marcados com asterisco na fonte original são exclusivamente descritivos e devem ser relatados conforme a orientação da própria LCC.
+Abrange desenvolvimento humano, gestão do desempenho e aspectos pessoais tratados exclusivamente nos limites autorizados pela LCC e pelas regras de privacidade da base.
 
-- [Consultar categoria 39 — Desempenho de pessoal](39-Desempenho-de-Pessoal.md)
+- [Consultar categoria 39 — Desempenho de Pessoal](39-Desempenho-de-Pessoal.md)
 
 ---
 
-## 5. Regras rápidas para o agente
+# 5. Regras rápidas para o agente
 
-- Use a LCC como uma lista de hipóteses, não como prova automática de causa.
-- Considere mais de uma categoria quando o evento envolver fatores interdependentes.
-- Não descarte uma hipótese somente porque um registro não foi encontrado.
+- Use a LCC como uma lista estruturada de hipóteses, não como prova automática de causa.
+- Conclua as etapas A, B e C antes de iniciar a triagem.
+- Execute a triagem para cada fator causal relevante.
+- Considere mais de uma categoria quando houver fatores interdependentes.
 - Não confirme uma hipótese somente porque ela parece provável.
 - Procure evidências favoráveis e desfavoráveis.
-- Verifique se a condição existia no momento relevante.
+- Não confunda ausência de registro com ausência da atividade.
+- Não confunda correlação com causalidade.
+- Não encerre a investigação em “erro humano”.
 - Demonstre como a condição contribuiu para o evento.
 - Declare explicitamente quando os dados forem insuficientes.
 - Preserve os códigos e as descrições originais da LCC.
 - Diferencie conteúdo original da LCC de orientações complementares desta base.
+- Após confirmar uma causa, continue os “porquês” para pesquisar condições antecedentes e sistêmicas.
 
 ---
 
-## 6. Navegação em dois níveis
+# 6. Estados possíveis de uma hipótese
 
-A arquitetura desta base foi organizada para acesso em, no máximo, dois níveis:
+## Confirmada
 
-1. **Nível 1:** este arquivo `INDEX.md`;
-2. **Nível 2:** o arquivo da categoria selecionada.
+Existem evidências suficientes de que a condição ocorreu, estava presente no período relevante e contribuiu de forma demonstrável para o evento.
 
-Todo o conteúdo necessário para pesquisar e testar uma hipótese deverá permanecer no próprio arquivo da categoria, sem exigir páginas adicionais.
+## Refutada
+
+Existem evidências suficientes de que a condição não ocorreu, estava adequadamente controlada ou não possui vínculo causal demonstrável com o evento.
+
+## Inconclusiva
+
+As evidências são insuficientes, conflitantes ou indisponíveis. O agente deve indicar as lacunas e as informações adicionais necessárias.
 
 ---
 
-## 7. Controle da base
+# 7. Arquitetura em dois níveis
+
+A base permanece organizada para acesso em, no máximo, dois níveis:
+
+1. **Nível 1:** esta página `index.md`;
+2. **Nível 2:** roteiro, metodologia, triagem ou arquivo da categoria selecionada.
+
+Todos os documentos permanecem na raiz do repositório, sem páginas adicionais abaixo das categorias.
+
+---
+
+# 8. Documento de apresentação
+
+- [README — Finalidade, princípios e limites da base](README.md)
+
+---
+
+# 9. Controle da base
 
 **Documento de origem:** Lista Compreensiva de Causas — FOG 222, revisão 00, de 24/10/2023.
 
-**Situação dos links:** os links das categorias ficarão ativos à medida que cada arquivo for criado, revisado e aprovado.
+**Situação da base:** roteiro operacional, metodologia, triagem dos passos 1 a 28 e categorias 29 a 39 disponíveis para consulta.
+
+**Nota de integridade:** as descrições originais da LCC devem ser preservadas. Evidências sugeridas, perguntas, interpretações, testes e regras de roteamento são orientações complementares destinadas a agentes de IA e investigadores humanos.
