@@ -46,7 +46,7 @@ A base apoia duas fases da análise de causa-raiz:
 
 Abrange entradas, saídas, verificação e validação de projeto.
 
-- [Consultar categoria 29 — Projeto e desenvolvimento](29-Projeto-e-Desenvolvimento.md)
+- [Consultar categoria 29 — Projeto e desenvolvimento](29-Projeto.md)
 
 ### 30 — Confiabilidade de equipamentos
 
