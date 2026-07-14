@@ -70,7 +70,7 @@ Abrange seleção e monitoramento de fornecedores, aquisição, especificações
 
 Abrange validação de novos desenvolvimentos, análise de riscos, gestão de mudanças, inspeções, auditorias, medições e tratamento de ocorrências.
 
-- [Consultar categoria 33 — Riscos, mudanças e monitoramento](33-Riscos-Mudancas-e-Monitoramento.md)
+- [Consultar categoria 33 — Controle da Qualidade](33-Controle-Qualidade.md)
 
 ### 34 — Protocolos operacionais
 
