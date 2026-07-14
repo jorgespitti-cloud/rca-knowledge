@@ -52,7 +52,7 @@ Abrange entradas, saídas, verificação e validação de projeto.
 
 Abrange programas de manutenção, manutenção corretiva e calibração ou verificação.
 
-- [Consultar categoria 30 — Confiabilidade de equipamentos](30-Confiabilidade-de-Equipamentos.md)
+- [Consultar categoria 30 — Confiabilidade de equipamentos](30-Manutencao.md)
 
 ### 31 — Informação documentada e controles associados
 
