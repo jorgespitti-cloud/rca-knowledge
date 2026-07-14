@@ -94,7 +94,7 @@ Abrange decisão e identificação de necessidades de treinamento, programas, re
 
 Abrange definição de responsabilidades, atribuições, planejamento, preparação, alocação, supervisão, coordenação e desempenho de equipes.
 
-- [Consultar categoria 37 — Responsabilidades, planejamento e supervisão](37-Responsabilidades-Planejamento-e-Supervisao.md)
+- [Consultar categoria 37 — Responsabilidades, planejamento e supervisão](37-Responsabilidades-Planejamento-Supervisao.md
 
 ### 38 — Comunicação
 
