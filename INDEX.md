@@ -66,11 +66,11 @@ Abrange seleção e monitoramento de fornecedores, aquisição, especificações
 
 - [Consultar categoria 32 — Fornecedores, materiais e serviços](32-Fornecedores-Materiais-e-Servicos.md)
 
-### 33 — Novo desenvolvimento, riscos, mudanças e monitoramento
+### 33 — Perigos, Aspectos e Defeitos
 
 Abrange validação de novos desenvolvimentos, análise de riscos, gestão de mudanças, inspeções, auditorias, medições e tratamento de ocorrências.
 
-- [Consultar categoria 33 — Controle da Qualidade](33-Controle-Qualidade.md)
+- [Consultar categoria 33 — Controle da Qualidade](33-Perigos-Aspectos-e-Defeitos.md)
 
 ### 34 — Protocolos operacionais
 
