@@ -63,6 +63,18 @@ Após a triagem, abrir os arquivos das categorias 29 a 39 indicadas e utilizar o
 
 ---
 
+## Passo 5 — Gerar os entregáveis da análise
+
+- [03 — Modelos de Entregáveis da Análise](03-MODELOS-DE-ENTREGAVEIS.md)
+
+Após concluir e validar a análise, utilizar os modelos para produzir:
+
+- Relatório Técnico Completo em Word;
+- Diálogo de Aprendizado de Qualidade, Saúde e Segurança, Meio Ambiente ou QHSE;
+- Apresentação Executiva em PowerPoint com exatamente cinco slides.
+
+Os três entregáveis devem utilizar a mesma consolidação validada e manter consistência entre evento, evidências, hipóteses, causas, ações e critérios de eficácia.
+
 # 3. Fluxo completo
 
 ```text
@@ -87,6 +99,8 @@ Confirmar, refutar ou classificar como inconclusiva
 Continuar os porquês
         ↓
 Registrar causas contribuintes e sistêmicas demonstradas
+        ↓
+03 — Gerar relatório, diálogo de aprendizado e apresentação executiva
 ```
 
 ---
@@ -201,7 +215,7 @@ As evidências são insuficientes, conflitantes ou indisponíveis. O agente deve
 A base permanece organizada para acesso em, no máximo, dois níveis:
 
 1. **Nível 1:** esta página `index.md`;
-2. **Nível 2:** roteiro, metodologia, triagem ou arquivo da categoria selecionada.
+2. **Nível 2:** roteiro, metodologia, triagem, arquivo da categoria ou modelos de entregáveis.
 
 Todos os documentos permanecem na raiz do repositório, sem páginas adicionais abaixo das categorias.
 
@@ -217,6 +231,6 @@ Todos os documentos permanecem na raiz do repositório, sem páginas adicionais 
 
 **Documento de origem:** Lista Compreensiva de Causas — FOG 222, revisão 00, de 24/10/2023.
 
-**Situação da base:** roteiro operacional, metodologia, triagem dos passos 1 a 28 e categorias 29 a 39 disponíveis para consulta.
+**Situação da base:** roteiro operacional, metodologia, triagem dos passos 1 a 28, categorias 29 a 39 e modelos de entregáveis disponíveis para consulta.
 
 **Nota de integridade:** as descrições originais da LCC devem ser preservadas. Evidências sugeridas, perguntas, interpretações, testes e regras de roteamento são orientações complementares destinadas a agentes de IA e investigadores humanos.
