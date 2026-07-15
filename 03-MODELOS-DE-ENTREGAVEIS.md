@@ -2,21 +2,19 @@
 
 ## 1. Finalidade
 
-Este documento orienta a transformação de uma análise validada em três entregáveis consistentes entre si:
+Este documento orienta a transformação de uma análise validada em três entregáveis consistentes:
 
-1. **Relatório Técnico Completo da Análise**, destinado ao registro formal e à rastreabilidade;
-2. **Diálogo de Aprendizado**, destinado à comunicação objetiva das lições relevantes às equipes;
-3. **Apresentação Executiva**, destinada à alta direção, com exatamente cinco slides.
+1. **Relatório Técnico Completo**, para registro formal e rastreabilidade;
+2. **DDS de Qualidade, HSE ou QHSE**, para comunicação e aprendizado das equipes;
+3. **Apresentação Executiva em PowerPoint**, para a alta direção, com exatamente cinco slides.
 
-Os entregáveis devem ser produzidos somente a partir de informações fornecidas, analisadas e validadas durante a investigação.
-
-> **Regra central:** nenhum entregável pode transformar hipótese preliminar ou inconclusiva em causa confirmada, omitir evidência contrária relevante ou inventar fatos, responsáveis, prazos, resultados ou aprovações.
+> Nenhum entregável pode transformar hipótese preliminar ou inconclusiva em causa confirmada, omitir evidência contrária relevante ou inventar fatos, responsáveis, prazos, resultados ou aprovações.
 
 ---
 
 ## 2. Aplicação
 
-Este documento deve ser utilizado após a conclusão e validação das fases aplicáveis da análise:
+Utilizar este documento somente após a validação das fases aplicáveis:
 
 - descrição do evento;
 - efeitos e consequências;
@@ -28,59 +26,81 @@ Este documento deve ser utilizado após a conclusão e validação das fases apl
 - identificação de causas imediatas, contribuintes e sistêmicas;
 - elaboração e validação do plano de ação.
 
-A geração dos entregáveis não substitui as revisões e aprovações previstas nos processos da organização.
+A geração dos entregáveis não substitui as revisões e aprovações formais da organização.
 
 ---
 
-# 3. Regras comuns aos três entregáveis
+# 3. Regras comuns
 
 ## 3.1 Fonte única da informação
 
-Os três entregáveis devem utilizar a mesma consolidação validada da análise.
+Os três entregáveis devem utilizar a mesma consolidação validada. Devem permanecer consistentes:
 
-As seguintes informações devem permanecer consistentes:
-
-- título e identificação do evento;
+- código, título e identificação do evento;
 - data, local, processo ou sistema;
-- condição esperada e condição encontrada;
-- extensão e efeitos conhecidos;
+- condição esperada, condição encontrada e desvio;
+- extensão, efeitos e consequências;
 - contenções executadas;
 - evidências relevantes;
-- códigos e categorias da LCC;
 - hipóteses confirmadas, refutadas e inconclusivas;
 - causas imediatas, contribuintes e sistêmicas;
 - barreiras que falharam;
 - ações, responsáveis, prazos e critérios de eficácia;
-- lacunas e limitações.
+- lacunas, limitações e riscos remanescentes.
 
-## 3.2 Estados das hipóteses
+## 3.2 Uso interno da LCC
+
+Os códigos e categorias da LCC são referências internas para pesquisa, triagem e teste. Não devem aparecer no Relatório Técnico, DDS ou PowerPoint, salvo solicitação expressa do usuário por uma versão técnica com rastreabilidade LCC.
+
+Nos entregáveis comuns, utilizar descrições claras das hipóteses, causas e barreiras.
+
+## 3.3 Identificadores estáveis
+
+A rastreabilidade visível deve usar:
+
+```text
+E  = efeitos
+C  = contenções
+EV = evidências
+H  = hipóteses
+T  = trilhas dos Porquês
+CA = causas confirmadas
+AC = ações
+EF = verificações de eficácia
+```
+
+Cadeia principal:
+
+```text
+E -> C -> EV -> H -> T -> CA -> AC -> EF
+```
+
+Os IDs não devem ser renumerados, reutilizados ou eliminados do histórico.
+
+## 3.4 Estados das hipóteses
 
 ### Confirmada
 
-A condição existia no período relevante, influenciou uma ação, decisão, processo ou barreira e possui vínculo causal demonstrável com o evento.
+A condição existia no período relevante, influenciou uma ação, decisão, processo ou barreira e possui vínculo causal demonstrável.
 
 ### Refutada
 
-A condição não existia, estava adequadamente controlada, não influenciou o evento ou é incompatível com as evidências disponíveis.
+A condição não existia, estava controlada, não influenciou o evento ou é incompatível com as evidências.
 
 ### Inconclusiva
 
-As evidências são insuficientes, conflitantes ou não permitem demonstrar nem afastar o vínculo causal.
+As evidências são insuficientes, conflitantes ou não permitem demonstrar ou afastar o vínculo causal.
 
-## 3.3 Uso das hipóteses nos entregáveis
+## 3.5 Uso das hipóteses
 
-- Hipóteses confirmadas podem fundamentar causas e ações corretivas.
-- Hipóteses refutadas devem permanecer registradas no relatório técnico, mas não devem ser apresentadas como causas nem receber ações corretivas.
-- Hipóteses inconclusivas devem permanecer identificadas, com as evidências faltantes e as limitações correspondentes.
-- O diálogo de aprendizado e a apresentação executiva devem mencionar hipóteses inconclusivas somente quando forem relevantes à compreensão de riscos, decisões pendentes ou limitações.
+- Hipótese confirmada pode fundamentar causa e ação definitiva.
+- Hipótese refutada permanece no Relatório Técnico, mas não recebe ação corretiva.
+- Hipótese inconclusiva deve indicar evidências faltantes e pode gerar investigação, monitoramento ou controle provisório.
+- DDS e PowerPoint só mencionam hipóteses inconclusivas quando forem relevantes a riscos ou decisões pendentes.
 
-## 3.4 Análise preliminar e análise concluída
+## 3.6 Situação da análise
 
 ### Análise preliminar
-
-Utilizar quando existirem hipóteses relevantes ainda não testadas ou quando as evidências forem insuficientes para uma conclusão formal.
-
-Inserir a declaração:
 
 ```text
 ANÁLISE PRELIMINAR
@@ -89,26 +109,21 @@ Hipóteses não testadas ou inconclusivas não devem ser tratadas como causas co
 
 ### Análise concluída
 
-Utilizar quando as hipóteses prioritárias tiverem sido testadas, os resultados estiverem classificados e a análise tiver sido submetida às validações aplicáveis.
-
-Inserir a declaração:
-
 ```text
 ANÁLISE CONCLUÍDA
-As conclusões apresentadas são baseadas nas evidências disponíveis e permanecem sujeitas às aprovações formais previstas pela organização.
+As conclusões são baseadas nas evidências disponíveis e permanecem sujeitas às aprovações formais da organização.
 ```
 
-## 3.5 Privacidade, confidencialidade e linguagem
+## 3.7 Privacidade e linguagem
 
 Os entregáveis devem:
 
 - priorizar funções, equipes e áreas em vez de nomes pessoais;
 - omitir diagnóstico, medicamento, condição clínica, informação psicológica e problema pessoal;
-- preservar dados de clientes, fornecedores e parceiros conforme as regras aplicáveis;
-- evitar julgamento de caráter, atribuição de culpa ou intenção;
-- usar linguagem factual e proporcional às evidências;
-- identificar informações restritas quando aplicável;
-- não divulgar material protegido além das pessoas autorizadas.
+- proteger informações de clientes, fornecedores e parceiros;
+- evitar julgamento de caráter, culpa ou intenção;
+- utilizar linguagem factual e proporcional às evidências;
+- não divulgar conteúdo restrito a pessoas não autorizadas.
 
 Para itens da categoria 39 marcados com `*`, utilizar somente:
 
@@ -116,12 +131,10 @@ Para itens da categoria 39 marcados com `*`, utilizar somente:
 Desempenho de Pessoal — Aspectos Pessoais
 ```
 
-## 3.6 Controle de versão
-
-Cada entregável deve informar:
+## 3.8 Controle de versão
 
 ```text
-ID do evento:
+Código do caso:
 Título:
 Versão:
 Data de emissão:
@@ -134,45 +147,40 @@ Classificação da informação:
 
 ---
 
-# 4. Entregável 1 — Relatório Técnico Completo da Análise
+# 4. Entregável 1 — Relatório Técnico Completo
 
 ## 4.1 Finalidade
 
-Registrar de maneira completa, rastreável e tecnicamente defensável o processo de análise, incluindo informações favoráveis e desfavoráveis às hipóteses.
+Registrar o processo de análise de forma completa, rastreável e tecnicamente defensável, incluindo evidências favoráveis e contrárias.
 
-## 4.2 Formato recomendado
+## 4.2 Formato
 
-Gerar preferencialmente em **Microsoft Word**, utilizando títulos numerados, tabelas legíveis, sumário e controle de versão.
+Gerar preferencialmente em Microsoft Word, com capa, sumário, títulos numerados, tabelas legíveis, controle de versão e paginação.
 
 ## 4.3 Estrutura obrigatória
 
 ### Capa
 
-- título da análise;
-- ID do evento;
+- código e título do caso;
 - unidade, processo ou local;
-- data do evento;
-- data do relatório;
-- versão;
-- situação da análise;
+- data do evento e do relatório;
+- versão e situação;
 - classificação da informação.
 
 ### 1. Resumo executivo
-
-Apresentar em linguagem concisa:
 
 - o que ocorreu;
 - extensão e impacto;
 - resposta imediata;
 - principais evidências;
 - causas confirmadas;
-- riscos e lacunas remanescentes;
-- principais ações e decisões necessárias.
+- riscos e lacunas;
+- principais ações e decisões.
 
 ### 2. Identificação e escopo
 
 ```text
-ID do evento:
+Código do caso:
 Título:
 Data e horário:
 Local, unidade ou processo:
@@ -184,60 +192,27 @@ Escopo excluído:
 Requisitos aplicáveis:
 ```
 
-### 3. Descrição objetiva do evento
+### 3. Descrição objetiva
 
-Incluir:
-
-- condição esperada;
-- condição encontrada;
-- desvio;
-- modo de detecção;
-- extensão conhecida;
-- efeitos conhecidos;
-- lacunas iniciais.
-
-Não incluir causas nesta seção.
+Incluir condição esperada, condição encontrada, desvio, detecção, extensão, efeitos e lacunas. Não incluir causas nesta seção.
 
 ### 4. Efeitos, consequências e abrangência
 
-Apresentar tabela com:
-
-- efeito;
-- consequência;
-- dimensão afetada;
-- situação observada, potencial ou indeterminada;
-- impacto;
-- abrangência conhecida;
-- abrangência ainda a verificar.
+```text
+ID | Efeito | Consequência | Dimensão | Situação | Impacto | Abrangência conhecida | Abrangência a verificar
+```
 
 ### 5. Contenção e mitigação
 
-Apresentar tabela com:
-
-- efeito tratado;
-- ação executada;
-- responsável;
-- data e prazo;
-- resultado esperado;
-- situação;
-- verificação da eficácia da contenção;
-- risco introduzido pela ação;
-- observações.
+```text
+ID | Efeito relacionado | Ação executada | Responsável | Prazo | Situação | Resultado | Verificação | Risco introduzido
+```
 
 Declarar que contenção não equivale necessariamente a ação corretiva.
 
 ### 6. Evidências e fontes
 
-Separar:
-
-- evidências diretas;
-- evidências indiretas;
-- relatos não confirmados;
-- evidências indisponíveis;
-- contradições;
-- limitações da coleta.
-
-Tabela recomendada:
+Separar evidências diretas, indiretas, relatos não confirmados, indisponibilidades, contradições e limitações.
 
 ```text
 ID | Evidência | Tipo | Fonte | Data | Integridade/rastreabilidade | Hipótese apoiada ou contradita | Limitação
@@ -249,100 +224,64 @@ ID | Evidência | Tipo | Fonte | Data | Integridade/rastreabilidade | Hipótese 
 Data/hora | Fato ou ação | Evidência | Classificação | Observação
 ```
 
-Distinguir fato, relato e inferência.
-
 ### 8. Fatores causais e barreiras
 
-Apresentar:
-
-- fatores causais identificados;
-- evidência associada;
-- posição na cronologia;
-- barreira de prevenção, detecção, mitigação ou recuperação;
-- situação da barreira;
-- limitações.
-
-### 9. Triagem 6Ms e LCC
-
-Tabela recomendada:
-
 ```text
-Fator causal | 6M | Passo 1 a 28 | Resposta | Categoria LCC | Código LCC | Justificativa | Evidência
+ID | Fator causal | Evidência associada | Posição na cronologia | Barreira esperada | Situação da barreira | Limitação
 ```
 
-Registrar respostas como Sim, Não, Indeterminado ou Não aplicável.
+### 9. Registro Mestre de Hipóteses
+
+```text
+ID | Hipótese | Evidência favorável | Evidência contrária | Lacuna | Prioridade | Situação
+```
 
 ### 10. Hipóteses e testes
 
-Para cada hipótese, informar:
-
-- código e descrição LCC;
-- formulação testável;
-- motivo para considerar;
-- evidências favoráveis;
-- evidências desfavoráveis;
-- método de teste;
-- critério de confirmação;
-- critério de refutação;
-- limitações;
-- resultado: confirmada, refutada ou inconclusiva;
-- justificativa.
+Para cada hipótese, informar formulação testável, motivo, evidências favoráveis e contrárias, método, critérios de confirmação e refutação, limitações, resultado e justificativa.
 
 ### 11. Trilhas dos Porquês
 
-Apresentar cada trilha separadamente:
-
 ```text
-Nível | Pergunta | Hipótese/código LCC | Evidências favoráveis | Evidências contrárias | Resultado | Vínculo com o nível anterior
+ID | Nível | Pergunta | Hipótese | Evidências favoráveis | Evidências contrárias | Resultado | Vínculo anterior
 ```
 
-Não exigir exatamente cinco níveis. Cada nível deve representar hipótese testada ou limitação declarada.
+Não exigir exatamente cinco níveis.
 
 ### 12. Conclusão causal
 
 Separar:
 
-- causa imediata;
+- causas imediatas;
 - causas contribuintes;
 - causas sistêmicas;
-- condições presentes sem influência;
+- condições sem influência;
 - hipóteses inconclusivas;
 - hipóteses refutadas relevantes.
 
 ### 13. Plano de ação
 
-Criar ações definitivas somente para causas confirmadas.
-
-Tabela recomendada:
+Criar ação definitiva somente para causa confirmada.
 
 ```text
-ID | Causa/código LCC | Ação | Barreira fortalecida | Entregável | Indicador | Meta | Recursos | Prazo | Responsável | Abrangência | Gestão de mudança | Risco colateral | Mitigação
+ID | Causa relacionada | Causa tratada | Ação | Barreira fortalecida | Entregável | Indicador | Meta | Recursos | Prazo | Responsável | Abrangência | Gestão de mudança | Risco | Mitigação
 ```
 
 ### 14. Verificação de eficácia
 
 ```text
-Ação | Indicador | Linha de base | Meta | Método | Amostra/período | Data da verificação | Responsável | Critério de sucesso | Resposta se ineficaz
+ID | Ação relacionada | Indicador | Linha de base | Meta | Método | Amostra/período | Data | Responsável | Critério de sucesso | Resposta se ineficaz
 ```
 
 ### 15. Matriz de rastreabilidade
 
 ```text
-ID | Fator causal | Passo LCC | Código LCC | Hipótese | Evidência | Resultado | Causa | Ação | Critério de eficácia
+Efeito | Contenção | Evidência | Hipótese | Trilha | Causa confirmada | Ação | Verificação de eficácia
 ```
-
-Cada ação deve estar vinculada a uma causa confirmada ou identificada explicitamente como controle provisório.
 
 ### 16. Lacunas, limitações e riscos remanescentes
 
-Registrar:
-
-- informações não obtidas;
-- hipóteses inconclusivas;
-- riscos aceitos ou ainda abertos;
-- restrições do método;
-- decisões pendentes;
-- necessidade de análise adicional.
+Registrar informações não obtidas, hipóteses inconclusivas, riscos abertos, restrições, decisões pendentes e necessidade de análise adicional.
 
 ### 17. Aprovações
 
@@ -353,31 +292,28 @@ Responsável pelo processo:
 QHSE:
 Aprovador:
 Datas:
-Comentários ou ressalvas:
+Ressalvas:
 ```
 
 ---
 
-# 5. Entregável 2 — Diálogo de Aprendizado
+# 5. Entregável 2 — DDS de Qualidade, HSE ou QHSE
 
 ## 5.1 Finalidade
 
-Comunicar o aprendizado relevante às equipes em linguagem simples, objetiva e não punitiva, preservando confidencialidade e evitando detalhes desnecessários.
+Comunicar o aprendizado às equipes em linguagem simples, objetiva e não punitiva, preservando confidencialidade.
 
 ## 5.2 Modalidades
 
-Selecionar conforme a natureza predominante do evento:
+- **DDS de Qualidade:** produto, serviço, processo, resultado, cliente, documentação ou conformidade técnica;
+- **DDS de HSE:** saúde, segurança ou meio ambiente;
+- **DDS de QHSE:** evento integrado ou aprendizado aplicável a Qualidade, Saúde, Segurança e Meio Ambiente.
 
-- **Diálogo de Qualidade:** produto, serviço, processo, resultado, cliente, documentação ou conformidade técnica;
-- **Diálogo de Saúde e Segurança:** acidente, incidente, exposição, condição de trabalho ou barreira de segurança;
-- **Diálogo de Meio Ambiente:** aspecto, impacto, emissão, resíduo, efluente, contaminação ou recurso natural;
-- **Diálogo QHSE:** evento integrado ou com aprendizado aplicável a mais de uma dimensão.
+> QHSE significa Qualidade, Saúde, Segurança e Meio Ambiente. Quando mais de uma dimensão estiver envolvida, preferir DDS de QHSE.
 
-> QHSE significa Qualidade, Saúde, Segurança e Meio Ambiente.
+## 5.3 Seleção
 
-## 5.3 Critério de seleção
-
-O agente deve declarar:
+Antes de gerar, apresentar e validar:
 
 ```text
 Modalidade escolhida:
@@ -386,51 +322,45 @@ Público recomendado:
 Duração sugerida:
 ```
 
-Se mais de uma dimensão for relevante, preferir Diálogo QHSE.
+## 5.4 Estrutura
 
-## 5.4 Estrutura recomendada
+O DDS deve ter aproximadamente uma página e duração de 5 a 10 minutos.
 
-O Diálogo deve ter aproximadamente uma página ou duração de 5 a 10 minutos.
-
-### Título do aprendizado
+### Título
 
 Curto, objetivo e sem exposição indevida.
 
 ### O que aconteceu?
 
-Descrição resumida e factual, sem nomes e sem hipóteses não confirmadas.
+Descrição factual, sem nomes e sem hipóteses não confirmadas.
 
 ### Por que isso importa?
 
-Apresentar impacto observado, risco potencial e relevância para a rotina.
+Impacto observado, risco potencial e relevância para a rotina.
 
 ### O que aprendemos?
 
-Apresentar de três a cinco aprendizados baseados em causas confirmadas e barreiras avaliadas.
+De três a cinco aprendizados baseados em causas confirmadas e barreiras avaliadas.
 
-### Quais sinais devemos observar?
+### Sinais de atenção
 
-Listar sinais, condições ou mudanças que devem gerar atenção, comunicação ou interrupção conforme os procedimentos aplicáveis.
+Condições ou mudanças que exigem atenção, comunicação, escalonamento ou interrupção conforme procedimentos aplicáveis.
 
-### O que se espera das equipes?
+### Controles e comportamentos esperados
 
-Apresentar comportamentos e controles organizacionais esperados. Não criar requisito novo nem substituir procedimentos vigentes.
+Não criar requisito novo nem substituir procedimento vigente.
 
 ### Perguntas para discussão
 
-Utilizar perguntas como:
-
-1. Essa situação poderia ocorrer em nossa atividade?
-2. Que barreira utilizamos atualmente?
-3. Como verificamos se a barreira funciona?
-4. O que deve ser comunicado e para quem?
-5. Que condição deve levar à interrupção e ao escalonamento?
+1. Esta situação poderia ocorrer em nossa atividade?
+2. Qual barreira utilizamos e como sabemos que funciona?
+3. O que deve ser comunicado e para quem?
 
 ### Mensagem-chave
 
-Uma frase curta, memorável e coerente com as causas confirmadas.
+Uma frase curta e memorável.
 
-### Registro da realização
+### Registro
 
 ```text
 Data:
@@ -443,85 +373,70 @@ Ações locais identificadas:
 
 ## 5.5 Restrições
 
-O Diálogo não deve incluir:
-
-- nomes ou informações pessoais;
-- diagnósticos, medicamentos ou aspectos pessoais;
-- informações protegidas de clientes;
-- alegações disciplinares;
-- hipóteses refutadas;
-- hipótese inconclusiva apresentada como causa;
-- detalhes técnicos que não sejam necessários ao aprendizado;
-- ação ou requisito ainda não aprovado.
-
-O enfoque deve ser aprendizado, barreiras e prevenção, nunca culpa.
+O DDS não deve incluir nomes, diagnósticos, dados pessoais, informações protegidas de clientes, alegações disciplinares, códigos LCC, hipóteses refutadas ou hipótese inconclusiva apresentada como causa.
 
 ---
 
-# 6. Entregável 3 — Apresentação Executiva em Cinco Slides
+# 6. Entregável 3 — Apresentação Executiva em PowerPoint
 
 ## 6.1 Finalidade
 
-Apresentar à alta direção uma síntese objetiva do evento, resposta, análise, causas, riscos, plano e decisões necessárias.
+Apresentar à alta direção uma síntese objetiva do evento, resposta, análise, causas, riscos, plano e decisões requeridas.
 
-## 6.2 Regras gerais
+## 6.2 Regras visuais e editoriais
 
 A apresentação deve:
 
+- ser integralmente em português, inclusive títulos, tabelas, indicadores e notas;
 - conter exatamente cinco slides;
-- utilizar linguagem executiva;
-- destacar números, extensão, status e decisões;
-- evitar excesso de texto;
+- não utilizar fotografias, imagens geradas por IA, ilustrações, cliparts ou elementos figurativos;
+- utilizar linguagem executiva e design corporativo minimalista;
+- limitar cada slide a uma mensagem principal e, no máximo, cinco pontos;
 - apresentar somente causas confirmadas como causas;
 - mostrar hipóteses inconclusivas como questões abertas;
-- manter consistência com o relatório técnico;
-- não ocultar limitações relevantes;
-- explicitar apoios ou decisões solicitadas à direção.
+- não exibir códigos ou categorias LCC, salvo solicitação expressa;
+- manter consistência com o Relatório Técnico.
 
-## 6.3 Estrutura obrigatória
+## 6.3 Paleta
+
+```text
+Amarelo principal — Supernova/Cerello: #FFC700
+Preto profundo/carvão: #000000 e cinzas muito escuros
+Branco e neutros claros: #FFFFFF
+Creme de apoio — Raffia: #E7CDAF
+```
+
+Aplicar `#FFC700` em títulos, destaques, indicadores, linhas e chamadas. Usar preto ou carvão em cabeçalhos e áreas de alto contraste, branco e neutros claros nos fundos principais e `#E7CDAF` apenas como apoio.
+
+Usar somente tipografia, números, caixas, linhas do tempo, tabelas, divisores e indicadores simples. Não criar elementos decorativos figurativos.
+
+## 6.4 Estrutura obrigatória
 
 ### Slide 1 — Evento, contexto e impacto
 
-**Mensagem principal:** o que ocorreu e por que importa.
-
-Conteúdo:
-
-- título e ID;
-- descrição do evento em uma frase;
-- condição esperada versus encontrada;
+- descrição em uma frase;
+- esperado versus encontrado;
 - data, local e processo;
 - impactos reais e potenciais;
 - situação atual.
 
 ### Slide 2 — Extensão e resposta imediata
 
-**Mensagem principal:** como os efeitos foram controlados e qual exposição permanece.
-
-Conteúdo:
-
 - abrangência conhecida;
-- pessoas, clientes, produtos, processos ou locais potencialmente afetados;
+- partes potencialmente afetadas;
 - contenções executadas;
 - eficácia da mitigação;
-- riscos e verificações ainda abertos.
+- riscos abertos.
 
 ### Slide 3 — Evidências e análise causal
-
-**Mensagem principal:** quais fatos sustentam a análise.
-
-Conteúdo:
 
 - principais evidências;
 - cronologia resumida;
 - fatores causais;
-- passos e categorias LCC relevantes;
-- hipóteses confirmadas, refutadas e inconclusivas.
+- hipóteses confirmadas, refutadas e inconclusivas;
+- limitações relevantes.
 
 ### Slide 4 — Causas e barreiras
-
-**Mensagem principal:** por que o evento ocorreu e quais controles falharam.
-
-Conteúdo:
 
 - causa imediata;
 - causas contribuintes;
@@ -531,47 +446,26 @@ Conteúdo:
 
 ### Slide 5 — Plano, eficácia e decisões
 
-**Mensagem principal:** o que será feito, como será verificado e qual apoio é necessário.
-
-Conteúdo:
-
 - principais ações;
 - responsáveis e prazos;
 - abrangência e gestão de mudança;
 - critérios de eficácia;
-- decisões, recursos ou apoio solicitados à direção.
+- decisões ou apoios requeridos.
 
-## 6.4 Notas do apresentador
+## 6.5 Notas do apresentador
 
-As notas devem conter:
-
-- explicação complementar dos pontos do slide;
-- fonte dos dados e evidências principais;
-- limitações relevantes;
-- perguntas esperadas e respostas sustentadas;
-- decisões solicitadas.
-
-## 6.5 Condensação
-
-Quando houver muitas causas ou ações:
-
-- agrupar por tema ou barreira;
-- apresentar no slide apenas os itens prioritários;
-- registrar detalhes no relatório técnico;
-- não reduzir a ponto de alterar o significado da conclusão.
+Incluir explicação complementar, fonte dos dados, limitações, perguntas esperadas e decisões requeridas. Todas as notas devem estar em português.
 
 ---
 
 # 7. Matriz mestra de consistência
 
-Antes da emissão, verificar:
-
 ```text
-Elemento | Relatório Word | Diálogo | PowerPoint | Consistente? | Observação
+Elemento | Relatório Word | DDS | PowerPoint | Consistente? | Observação
 Descrição do evento
 Extensão e impactos
 Contenções
-Principais evidências
+Evidências principais
 Causas confirmadas
 Hipóteses inconclusivas relevantes
 Barreiras
@@ -581,94 +475,79 @@ Critérios de eficácia
 Riscos remanescentes
 ```
 
-Qualquer divergência deve ser resolvida com base na consolidação validada da análise.
+Resolver divergências com base na consolidação validada da análise.
 
 ---
 
-# 8. Verificação de qualidade antes da emissão
+# 8. Verificação antes da emissão
 
-## 8.1 Relatório técnico
+## 8.1 Relatório
 
-- O evento está descrito sem antecipação causal?
-- A cronologia é rastreável?
-- Evidências favoráveis e desfavoráveis estão registradas?
-- Hipóteses estão classificadas?
+- Os IDs foram preservados?
+- Os códigos LCC estão ocultos, salvo solicitação?
+- Evidências favoráveis e contrárias estão registradas?
 - Cada causa possui vínculo demonstrável?
 - Cada ação está vinculada a causa confirmada ou controle provisório identificado?
 - A eficácia possui indicador, meta e prazo?
 - Lacunas e limitações estão declaradas?
 
-## 8.2 Diálogo de aprendizado
+## 8.2 DDS
 
-- O conteúdo é compreensível ao público?
-- A mensagem evita culpa e exposição?
+- A modalidade foi validada?
+- O conteúdo é compreensível e não punitivo?
 - O aprendizado decorre de fatos e causas confirmadas?
-- Os comportamentos esperados são compatíveis com procedimentos aprovados?
-- Há perguntas para participação da equipe?
+- Não há nomes, dados sensíveis ou códigos LCC?
+- Existem três perguntas para discussão e uma mensagem-chave?
 
-## 8.3 Apresentação executiva
+## 8.3 PowerPoint
 
-- Existem exatamente cinco slides?
-- Cada slide possui uma mensagem principal?
-- Os impactos e riscos estão quantificados quando possível?
-- Causas e hipóteses estão claramente diferenciadas?
-- A decisão solicitada à direção está explícita?
-- O plano apresenta responsáveis, prazos e eficácia?
+- Está integralmente em português?
+- Possui exatamente cinco slides?
+- Está sem imagens e utiliza a paleta definida?
+- Cada slide tem uma mensagem principal e até cinco pontos?
+- Causas e hipóteses estão diferenciadas?
+- Decisões requeridas estão explícitas?
 
 ---
 
-# 9. Regras para geração dos arquivos
+# 9. Geração dos arquivos
 
-Quando a capacidade de geração de arquivos estiver disponível, oferecer ao usuário:
+Após validar a consolidação, oferecer:
 
 ```text
-1. Gerar o Relatório Técnico em Word;
-2. Gerar o Diálogo de Aprendizado em Word;
-3. Gerar a Apresentação Executiva em PowerPoint com cinco slides;
+1. Gerar o Relatório Técnico Completo em Word;
+2. Gerar o DDS de Qualidade, HSE ou QHSE em Word;
+3. Gerar a Apresentação Executiva em PowerPoint;
 4. Gerar todos os entregáveis.
 ```
 
-Antes da geração, solicitar apenas as informações obrigatórias que ainda estiverem ausentes, como ID, título, versão, responsáveis autorizados e classificação da informação.
+Antes da geração, solicitar somente dados obrigatórios ainda ausentes. Se a geração direta não estiver disponível, produzir conteúdo completo e estruturado para Word e PowerPoint.
 
-Após a geração, informar que os arquivos devem ser revisados antes da emissão ou compartilhamento.
+## Nomenclatura
 
-Se a geração direta não estiver disponível, produzir o conteúdo completo e estruturado para transferência ao Word e ao PowerPoint.
+```text
+RCA_[codigo]_[Titulo-Curto]_Relatorio-Tecnico.docx
+RCA_[codigo]_[Titulo-Curto]_DDS-[Qualidade-HSE-QHSE].docx
+RCA_[codigo]_[Titulo-Curto]_Executivo-5-Slides.pptx
+```
+
+Nos nomes dos arquivos, substituir o ponto do código por hífen.
 
 ---
 
-# 10. Nomenclatura recomendada
+# 10. Consolidação obrigatória
 
-Utilizar nomes sem caracteres especiais incompatíveis com sistemas de arquivos:
-
-```text
-RCA_[ID]_[Titulo-Curto]_Relatorio-Tecnico.docx
-RCA_[ID]_[Titulo-Curto]_Dialogo-[Qualidade-HS-MA-QHSE].docx
-RCA_[ID]_[Titulo-Curto]_Executivo-5-Slides.pptx
-```
-
-Exemplo:
+Antes de criar arquivos, consolidar e validar:
 
 ```text
-RCA_2026-014_Resultados-Incorretos_Relatorio-Tecnico.docx
-RCA_2026-014_Resultados-Incorretos_Dialogo-Qualidade.docx
-RCA_2026-014_Resultados-Incorretos_Executivo-5-Slides.pptx
-```
-
----
-
-# 11. Saída consolidada para geração
-
-Antes de criar os arquivos, consolidar:
-
-```text
-ID e título:
+Código e título:
 Situação: Preliminar / Concluída
-Descrição validada:
-Impactos validados:
-Contenções validadas:
+Descrição:
+Impactos:
+Contenções:
 Evidências principais:
-Cronologia resumida:
-Triagem LCC:
+Cronologia:
+Registro Mestre:
 Hipóteses confirmadas:
 Hipóteses refutadas:
 Hipóteses inconclusivas:
@@ -684,14 +563,12 @@ Classificação da informação:
 Aprovações necessárias:
 ```
 
-O usuário deve validar essa consolidação antes da geração dos entregáveis.
-
 ---
 
-# 12. Controle e integridade
+# 11. Controle e integridade
 
 **Documento de origem:** Base de Conhecimento da Lista Compreensiva de Causas — LCC.
 
 **Uso:** orientação complementar para geração de entregáveis após análise estruturada e validada.
 
-**Regra de alteração:** mudanças nos modelos devem preservar a rastreabilidade entre evento, evidência, hipótese, causa, ação e eficácia, além das regras de privacidade e aprovação aplicáveis.
+**Regra de alteração:** preservar rastreabilidade entre evento, evidência, hipótese, causa, ação e eficácia, além das regras de privacidade e aprovação.
